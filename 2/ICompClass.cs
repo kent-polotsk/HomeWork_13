@@ -44,7 +44,9 @@ namespace _2
 
         public int CompareTo(MyClass1 other)
         {
-            return idNumber.CompareTo(other.idNumber);
+            if (other is not null)
+                return idNumber.CompareTo(other.idNumber);
+            else return 1;
         }
     }
 

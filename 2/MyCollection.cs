@@ -45,6 +45,7 @@ namespace _2
                 PrintItems();
             
         }
+
         public void PrintItems()
         {
             if (list.Count > 0)
